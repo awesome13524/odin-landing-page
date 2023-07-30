@@ -1,0 +1,36 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-flow: column;
+}
+
+.nav a, .hero p {
+    color: #e6e7eb
+}
+
+.nav, .header {
+    background-color: #1F2937;
+    color: white;
+}
+
+.nav img {
+    height: 100px;
+    width: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 200px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
