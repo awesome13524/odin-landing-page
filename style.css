@@ -5,8 +5,6 @@ body {
     margin: 0;
 }
 
-
-
 .nav a, .hero-subtext {
     color: #e5e7eb
 }
@@ -58,7 +56,7 @@ a {
 }
 
 .header img {
-    height: 300px;
+    height: 240px;
     width: auto;
 }
 
@@ -72,3 +70,32 @@ button {
     font-weight: bold;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    padding: 0 15% 120px;
+    justify-content: space-around;
+}
+
+.card{
+    width: 160px;
+    text-align: center;
+}
+
+.movie-title {
+    font-size: 24px;
+}
+
+.movie-poster img {
+    height: 160px;
+    width: 160px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    object-fit: cover;
+}
