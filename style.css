@@ -16,7 +16,9 @@ body {
 
 .nav img {
     height: 100px;
-    width: auto;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100%;
 }
 
 .nav {
@@ -140,6 +142,13 @@ button {
     margin: 0;
 }
 
-button {
+.signup button {
     border: 2px solid white; 
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 40px 0;
 }
