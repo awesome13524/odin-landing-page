@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+
+
 .nav a, .hero-subtext {
     color: #e5e7eb
 }
@@ -22,7 +24,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 24px 200px;
+    padding: 24px 15%;
     align-items: center;
 }
 
@@ -37,14 +39,11 @@ a {
 }
 
 .header {
-    padding: 120px 200px;
+    padding: 100px 15%;
     display: flex;
     gap: 50px;
     align-items: center;
-}
-
-.header * {
-    margin: 8px 0;
+    justify-content: space-around;
 }
 
 .hero-text {
@@ -56,11 +55,6 @@ a {
 
 .hero-subtext {
     font-size: 18px;
-}
-
-.main-image {
-    flex: 1;
-    text-align: center;
 }
 
 .header img {
@@ -77,3 +71,4 @@ button {
     border-radius: 10px;
     font-weight: bold;
 }
+
