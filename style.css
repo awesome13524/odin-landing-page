@@ -99,3 +99,20 @@ button {
     border-radius: 10px;
     object-fit: cover;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 120px 15%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote-attribution {
+    font-weight: bold;
+    text-align: right;
+}
